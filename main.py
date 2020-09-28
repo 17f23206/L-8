@@ -1,6 +1,6 @@
-print("Enter birth month (e.g. September):")
-month = input()
-if month == "June":
-    print("That is my favourite month")
+print("Guess a number between 1 and 10:")
+number = int(input())
+if number == 7:
+    print("You got it!")
 else:
-    print("My birth month is June")
+    print("Incorrect")
