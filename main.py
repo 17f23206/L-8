@@ -1,6 +1,6 @@
-print("Enter age:")
-age = int(input())
-if age > 25:
-    print("Wow that is old!")
+print("Enter birth month (e.g. September):")
+month = input()
+if month == "June":
+    print("That is my favourite month")
 else:
-  print("you ar young")
+    print("My birth month is June")
